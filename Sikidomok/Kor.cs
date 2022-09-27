@@ -12,7 +12,7 @@ namespace Sikidomok
 
         public double Sugar { get => sugar; set => sugar = value; }
 
-        public Kor(double sugar)
+        public Kor(double sugar, string tipus) :base(tipus)
         {
             this.sugar = sugar;
         }

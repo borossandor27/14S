@@ -8,6 +8,15 @@ namespace Sikidomok
 {
     abstract class Sikidom
     {
+        readonly string alakzatTipus;
+
+        public string AlakzatTipus { get => alakzatTipus;  }
+
+        protected Sikidom(string alakzatTipus)
+        {
+            this.alakzatTipus = alakzatTipus;
+        }
+
         abstract public double Kerulet();
         public abstract double Terulet();
     }
