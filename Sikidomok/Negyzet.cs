@@ -12,7 +12,7 @@ namespace Sikidomok
 
         public double Oldal { get => oldal; set => oldal = value; }
 
-        public Negyzet(double oldal,string tipus) :base(tipus)
+        public Negyzet(double oldal) :base("Négyzet")
         {
             Oldal = oldal;
         }

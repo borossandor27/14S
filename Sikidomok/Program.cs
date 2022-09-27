@@ -12,10 +12,10 @@ namespace Sikidomok
         {
             List<Sikidom> sikidoms = new List<Sikidom>();
 
-            sikidoms.Add(new Kor(2.5,"Köröcske"));
-            sikidoms.Add(new Kor(5.1, "Kör"));
-            sikidoms.Add(new Negyzet(2.5, "Négyzet"));
-            sikidoms.Add(new Negyzet(4.1, "Négyzet"));
+            sikidoms.Add(new Kor(2.5));
+            sikidoms.Add(new Kor(5.1));
+            sikidoms.Add(new Negyzet(2.5));
+            sikidoms.Add(new Negyzet(4.1));
 
             foreach (Sikidom item in sikidoms)
             {
