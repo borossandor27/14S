@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAlap", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAlapok", "WindowsFormsAlapok\WindowsFormsAlapok.csproj", "{BA3FFF47-680E-43B7-A4BE-90E4E7955105}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTagdij", "WindowsFormsTagdij\WindowsFormsTagdij.csproj", "{BFBE48AE-D618-4808-92A4-E7154C36D3CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BA3FFF47-680E-43B7-A4BE-90E4E7955105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3FFF47-680E-43B7-A4BE-90E4E7955105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3FFF47-680E-43B7-A4BE-90E4E7955105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBE48AE-D618-4808-92A4-E7154C36D3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBE48AE-D618-4808-92A4-E7154C36D3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBE48AE-D618-4808-92A4-E7154C36D3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBE48AE-D618-4808-92A4-E7154C36D3CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
