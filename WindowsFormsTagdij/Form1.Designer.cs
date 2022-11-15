@@ -30,22 +30,22 @@
         {
             this.listBox_KlubTagok = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox_Azonosito = new System.Windows.Forms.TextBox();
-            this.textBox_Nev = new System.Windows.Forms.TextBox();
-            this.numericUpDown_SzuletesiEv = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown_IranyitoSzam = new System.Windows.Forms.NumericUpDown();
-            this.textBox_Orszag = new System.Windows.Forms.TextBox();
-            this.button_Insert = new System.Windows.Forms.Button();
-            this.button_Update = new System.Windows.Forms.Button();
             this.button_Delete = new System.Windows.Forms.Button();
+            this.button_Update = new System.Windows.Forms.Button();
+            this.button_Insert = new System.Windows.Forms.Button();
+            this.textBox_Orszag = new System.Windows.Forms.TextBox();
+            this.numericUpDown_IranyitoSzam = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_SzuletesiEv = new System.Windows.Forms.NumericUpDown();
+            this.textBox_Nev = new System.Windows.Forms.TextBox();
+            this.textBox_Azonosito = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SzuletesiEv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_IranyitoSzam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SzuletesiEv)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox_KlubTagok
@@ -81,86 +81,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kiválasztott tag adatai";
             // 
-            // label1
+            // button_Delete
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Azonosító";
+            this.button_Delete.Location = new System.Drawing.Point(48, 342);
+            this.button_Delete.Name = "button_Delete";
+            this.button_Delete.Size = new System.Drawing.Size(209, 30);
+            this.button_Delete.TabIndex = 12;
+            this.button_Delete.Text = "Törlés";
+            this.button_Delete.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // button_Update
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(85, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Név";
+            this.button_Update.Location = new System.Drawing.Point(48, 289);
+            this.button_Update.Name = "button_Update";
+            this.button_Update.Size = new System.Drawing.Size(209, 28);
+            this.button_Update.TabIndex = 11;
+            this.button_Update.Text = "Módosít";
+            this.button_Update.UseVisualStyleBackColor = true;
+            this.button_Update.Click += new System.EventHandler(this.button_Update_Click);
             // 
-            // label3
+            // button_Insert
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(48, 100);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Születési év";
+            this.button_Insert.Location = new System.Drawing.Point(48, 234);
+            this.button_Insert.Name = "button_Insert";
+            this.button_Insert.Size = new System.Drawing.Size(209, 30);
+            this.button_Insert.TabIndex = 10;
+            this.button_Insert.Text = "Új tag";
+            this.button_Insert.UseVisualStyleBackColor = true;
+            this.button_Insert.Click += new System.EventHandler(this.button_Insert_Click);
             // 
-            // label4
+            // textBox_Orszag
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 137);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Irányítószám";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(72, 174);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Ország";
-            // 
-            // textBox_Azonosito
-            // 
-            this.textBox_Azonosito.Location = new System.Drawing.Point(137, 26);
-            this.textBox_Azonosito.Name = "textBox_Azonosito";
-            this.textBox_Azonosito.Size = new System.Drawing.Size(120, 20);
-            this.textBox_Azonosito.TabIndex = 5;
-            // 
-            // textBox_Nev
-            // 
-            this.textBox_Nev.Location = new System.Drawing.Point(137, 63);
-            this.textBox_Nev.Name = "textBox_Nev";
-            this.textBox_Nev.Size = new System.Drawing.Size(120, 20);
-            this.textBox_Nev.TabIndex = 6;
-            // 
-            // numericUpDown_SzuletesiEv
-            // 
-            this.numericUpDown_SzuletesiEv.Location = new System.Drawing.Point(137, 100);
-            this.numericUpDown_SzuletesiEv.Maximum = new decimal(new int[] {
-            2090,
-            0,
-            0,
-            0});
-            this.numericUpDown_SzuletesiEv.Minimum = new decimal(new int[] {
-            1900,
-            0,
-            0,
-            0});
-            this.numericUpDown_SzuletesiEv.Name = "numericUpDown_SzuletesiEv";
-            this.numericUpDown_SzuletesiEv.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown_SzuletesiEv.TabIndex = 7;
-            this.numericUpDown_SzuletesiEv.Value = new decimal(new int[] {
-            1900,
-            0,
-            0,
-            0});
+            this.textBox_Orszag.Location = new System.Drawing.Point(137, 174);
+            this.textBox_Orszag.Name = "textBox_Orszag";
+            this.textBox_Orszag.Size = new System.Drawing.Size(120, 20);
+            this.textBox_Orszag.TabIndex = 9;
             // 
             // numericUpDown_IranyitoSzam
             // 
@@ -184,39 +139,87 @@
             0,
             0});
             // 
-            // textBox_Orszag
+            // numericUpDown_SzuletesiEv
             // 
-            this.textBox_Orszag.Location = new System.Drawing.Point(137, 174);
-            this.textBox_Orszag.Name = "textBox_Orszag";
-            this.textBox_Orszag.Size = new System.Drawing.Size(120, 20);
-            this.textBox_Orszag.TabIndex = 9;
+            this.numericUpDown_SzuletesiEv.Location = new System.Drawing.Point(137, 100);
+            this.numericUpDown_SzuletesiEv.Maximum = new decimal(new int[] {
+            2090,
+            0,
+            0,
+            0});
+            this.numericUpDown_SzuletesiEv.Minimum = new decimal(new int[] {
+            1900,
+            0,
+            0,
+            0});
+            this.numericUpDown_SzuletesiEv.Name = "numericUpDown_SzuletesiEv";
+            this.numericUpDown_SzuletesiEv.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown_SzuletesiEv.TabIndex = 7;
+            this.numericUpDown_SzuletesiEv.Value = new decimal(new int[] {
+            1900,
+            0,
+            0,
+            0});
             // 
-            // button_Insert
+            // textBox_Nev
             // 
-            this.button_Insert.Location = new System.Drawing.Point(48, 234);
-            this.button_Insert.Name = "button_Insert";
-            this.button_Insert.Size = new System.Drawing.Size(209, 30);
-            this.button_Insert.TabIndex = 10;
-            this.button_Insert.Text = "Új tag";
-            this.button_Insert.UseVisualStyleBackColor = true;
+            this.textBox_Nev.Location = new System.Drawing.Point(137, 63);
+            this.textBox_Nev.Name = "textBox_Nev";
+            this.textBox_Nev.Size = new System.Drawing.Size(120, 20);
+            this.textBox_Nev.TabIndex = 6;
             // 
-            // button_Update
+            // textBox_Azonosito
             // 
-            this.button_Update.Location = new System.Drawing.Point(48, 289);
-            this.button_Update.Name = "button_Update";
-            this.button_Update.Size = new System.Drawing.Size(209, 28);
-            this.button_Update.TabIndex = 11;
-            this.button_Update.Text = "Módosít";
-            this.button_Update.UseVisualStyleBackColor = true;
+            this.textBox_Azonosito.Location = new System.Drawing.Point(137, 26);
+            this.textBox_Azonosito.Name = "textBox_Azonosito";
+            this.textBox_Azonosito.ReadOnly = true;
+            this.textBox_Azonosito.Size = new System.Drawing.Size(120, 20);
+            this.textBox_Azonosito.TabIndex = 5;
             // 
-            // button_Delete
+            // label5
             // 
-            this.button_Delete.Location = new System.Drawing.Point(48, 342);
-            this.button_Delete.Name = "button_Delete";
-            this.button_Delete.Size = new System.Drawing.Size(209, 30);
-            this.button_Delete.TabIndex = 12;
-            this.button_Delete.Text = "Törlés";
-            this.button_Delete.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(72, 174);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Ország";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(45, 137);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Irányítószám";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(48, 100);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Születési év";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(85, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Név";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(57, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Azonosító";
             // 
             // Form_ClubTags
             // 
@@ -230,8 +233,8 @@
             this.Load += new System.EventHandler(this.Form_ClubTags_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SzuletesiEv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_IranyitoSzam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SzuletesiEv)).EndInit();
             this.ResumeLayout(false);
 
         }
