@@ -25,5 +25,9 @@ namespace WindowsForms_Gyumolcsos
             Egysegar = egysegar;
             Mennyiseg = mennyiseg;
         }
+        public override string ToString()
+        {
+            return $"{nev} ({egysegar.ToString("0.00")})";
+        }
     }
 }
